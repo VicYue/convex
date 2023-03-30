@@ -17,8 +17,8 @@ This algorithm use the jarvis_march() which takes the same type of input (data p
 
 
 ### inhull()
-
-
+This algorithm takes two input, the first input is the same as jarvis_march() and plotconvex() being a set of points in a plane. The second input is the user-decided list of vectors (point(points)) that user what to identify whether the point(points) are in the convex hull. There are three possible output. If all the user-decided points are in the convex hull set, then it will give the message that the points are all in the convex hull; If some of the user-decided points are not in the convex hull set but some are, then it will give the message that some of the points are in the convex hull; If non of the user-decided points are in the convex hull, the function will output the message that none of the points are in the convex hull.
 
 ## General Guide on Checking Coursework
+All the above R functions can be found in the R folder
 [LinkingCplusplusRTest.ipynb](LinkingCplusplusRTest.ipynb)
